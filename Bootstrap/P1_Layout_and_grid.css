@@ -1,13 +1,23 @@
 .header{
     background-color: antiquewhite;
+    height: 100 px;
 }
 .content{
     padding: 10px;
     background-color: rgb(212, 212, 27);
+    height: 400px;
 }
 .main-content{
-    background-color: bisque;
+    padding: 30 px;
+    background-color: darkkhaki;
+    height: 340px;
 }
 .sidebar{
     background-color: burlywood;
+    padding: 30 px;
+    height: 340px;    
+}
+.footer{
+    height: 100 px;
+    background-color: crimson;
 }
