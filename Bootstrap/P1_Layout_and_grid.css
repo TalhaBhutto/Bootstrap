@@ -3,7 +3,6 @@
     height: 100 px;
 }
 .content{
-    padding: 10px;
     background-color: rgb(212, 212, 27);
     height: 400px;
 }
@@ -15,7 +14,8 @@
 .sidebar{
     background-color: burlywood;
     margin: 30 px;
-    height: 340px;    
+    height: 340px;  
+    overflow-y: scroll;  
 }
 .footer{
     height: 100 px;
