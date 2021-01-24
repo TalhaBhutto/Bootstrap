@@ -7,5 +7,8 @@
     height: 60px;
     padding: 5px;
     border-radius: 100px;
+}
+.r1{
+    display:flexbox;
     align-items: center;
 }
