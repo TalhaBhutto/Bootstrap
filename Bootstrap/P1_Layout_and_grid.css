@@ -1,0 +1,13 @@
+.header{
+    background-color: antiquewhite;
+}
+.content{
+    padding: 10px;
+    background-color: rgb(212, 212, 27);
+}
+.col-3 sidebar{
+    background-color: bisque;
+}
+.col-9 main-content{
+    background-color: burlywood;
+}
