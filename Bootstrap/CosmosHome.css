@@ -6,9 +6,11 @@
     height: 60px;
     padding: 5px;
     border-radius: 100px;
+    align-items: center;
 }
 .icons{
     text-align: center;
     border-bottom: 20px;
     text-indent: 1px;
+    align-items: center;
 }
