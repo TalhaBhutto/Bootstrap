@@ -10,5 +10,8 @@
 }
 .r1{
     display:flexbox;
-    align-items: center;
+    text-align: center;
+}
+.r1:img{
+    align-self:center;
 }
