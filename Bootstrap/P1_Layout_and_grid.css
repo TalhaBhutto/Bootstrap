@@ -5,9 +5,9 @@
     padding: 10px;
     background-color: rgb(212, 212, 27);
 }
-.col-3 sidebar{
+.main-content{
     background-color: bisque;
 }
-.col-9 main-content{
+.sidebar{
     background-color: burlywood;
 }
