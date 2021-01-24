@@ -2,5 +2,12 @@
     background-color: #e7d2e5;
 }
 .icons2{
-    width: 100px;
+    width: 80px;
+    height: 60px;
+    padding: 5px;
+}
+.icons{
+    text-align: center;
+    border-bottom: 20px;
+    text-indent: 1px;
 }
