@@ -7,77 +7,182 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <link rel="stylesheet" href="P1_Layout_and_grid3">
+    <link rel="stylesheet" href="P1_Layout_and_grid3.css">
     <title>Practice</title>
   </head>
   <body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand navbar-dark bg-dark pull-left" style="left:-1%;">
+            <div class="col-12 container-fluid">
+              <a class="navbar-brand" href="#">Navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </div>
     <div class="container-fluid">
         <div class="row">
             <div class="col-3 sidebar">
                 <ul class="List-group">
                     <li class="list-group-item">Karachi</li>
-                    <li class="list-group-item list-group-item-dark">Introduction to Karachi</li>
-                    <li class="list-group-item list-group-item-dark">Economic Potential</li>
-                    <li class="list-group-item list-group-item-dark">Markets of Karachi</li>
-                    <li class="list-group-item list-group-item-dark">FoodStreeats of Karachi</li>
-                    <li class="list-group-item list-group-item-dark">People of Karachi</li>
-                    <li class="list-group-item list-group-item-dark">City of Lights</li>
-                    <li class="list-group-item list-group-item-dark">History</li>
-                    <li class="list-group-item list-group-item-dark">Mai Kolachi</li>
-                    <li class="list-group-item list-group-item-dark">Jamshed</li>
-                    <li class="list-group-item list-group-item-dark">Port</li>
-                    <li class="list-group-item list-group-item-dark">Municipal Corporation</li>
-                    <li class="list-group-item list-group-item-dark">Economic Hub</li>
-                    <li class="list-group-item list-group-item-dark">Home of Quaid</li>
-                    <li class="list-group-item list-group-item-dark">Mini Pakistan</li>
-                    <li class="list-group-item list-group-item-dark">Coastal Area</li>
-                    <li class="list-group-item list-group-item-dark">Political Hub</li>
-                    <li class="list-group-item list-group-item-dark">Capital of Sindh</li>
-                    <li class="list-group-item list-group-item-dark">Most Populous City</li>
-                    <li class="list-group-item list-group-item-dark">Open for everyone</li>
-                    <li class="list-group-item list-group-item-dark">Jinnah International Airport</li>
-                    <li class="list-group-item list-group-item-dark">Economic Potential</li>
-                    <li class="list-group-item list-group-item-dark">Markets of Karachi</li>
-                    <li class="list-group-item list-group-item-dark">FoodStreeats of Karachi</li>
-                    <li class="list-group-item list-group-item-dark">People of Karachi</li>
-                    <li class="list-group-item list-group-item-dark">City of Lights</li>
-                    <li class="list-group-item list-group-item-dark">History</li>
-                    <li class="list-group-item list-group-item-dark">Mai Kolachi</li>
-                    <li class="list-group-item list-group-item-dark">Jamshed</li>
-                    <li class="list-group-item list-group-item-dark">Port</li>
-                    <li class="list-group-item list-group-item-dark">Municipal Corporation</li>
-                    <li class="list-group-item list-group-item-dark">Economic Hub</li>
-                    <li class="list-group-item list-group-item-dark">Home of Quaid</li>
-                    <li class="list-group-item list-group-item-dark">Mini Pakistan</li>
-                    <li class="list-group-item list-group-item-dark">Coastal Area</li>
-                    <li class="list-group-item list-group-item-dark">Political Hub</li>
-                    <li class="list-group-item list-group-item-dark">Capital of Sindh</li>
-                    <li class="list-group-item list-group-item-dark">Most Populous City</li>
-                    <li class="list-group-item list-group-item-dark">Open for everyone</li>
-                    <li class="list-group-item list-group-item-dark">Jinnah International Airport</li>
-                    <li class="list-group-item list-group-item-dark">Economic Potential</li>
-                    <li class="list-group-item list-group-item-dark">Markets of Karachi</li>
-                    <li class="list-group-item list-group-item-dark">FoodStreeats of Karachi</li>
-                    <li class="list-group-item list-group-item-dark">People of Karachi</li>
-                    <li class="list-group-item list-group-item-dark">City of Lights</li>
-                    <li class="list-group-item list-group-item-dark">History</li>
-                    <li class="list-group-item list-group-item-dark">Mai Kolachi</li>
-                    <li class="list-group-item list-group-item-dark">Jamshed</li>
-                    <li class="list-group-item list-group-item-dark">Port</li>
-                    <li class="list-group-item list-group-item-dark">Municipal Corporation</li>
-                    <li class="list-group-item list-group-item-dark">Economic Hub</li>
-                    <li class="list-group-item list-group-item-dark">Home of Quaid</li>
-                    <li class="list-group-item list-group-item-dark">Mini Pakistan</li>
-                    <li class="list-group-item list-group-item-dark">Coastal Area</li>
-                    <li class="list-group-item list-group-item-dark">Political Hub</li>
-                    <li class="list-group-item list-group-item-dark">Capital of Sindh</li>
-                    <li class="list-group-item list-group-item-dark">Most Populous City</li>
-                    <li class="list-group-item list-group-item-dark">Open for everyone</li>
-                    <li class="list-group-item list-group-item-dark">Jinnah International Airport</li>
+                    <li class="list-group-item list-group-item-dark"><a href="Introduction to Karachi">Introduction to Karachi</a></li>
+                    <li class="list-group-item list-group-item-dark"><a href="">Economic Potential</a></li>
+                    <li class="list-group-item list-group-item-dark"><a href="">Markets of Karachi</a></li>
+                    <li class="list-group-item list-group-item-dark"><a href="">FoodStreeats of Karachi</a></li>
+                    <li class="list-group-item list-group-item-dark"><a href="">People of Karachi</a></li>
+                    <li class="list-group-item list-group-item-dark"><a href="">City of Lights</a></li>
+                    <li class="list-group-item list-group-item-dark"><a href="">History</a></li>
+                    <li class="list-group-item list-group-item-dark"><a href="">Mai Kolachi</a></li>
+                    <li class="list-group-item list-group-item-dark"><a href="">Jamshed</a></li>
+                    <li class="list-group-item list-group-item-dark"><a href="">Port</a></li>
+                    <li class="list-group-item list-group-item-dark"><a href="">Municipal Corporation</a></li>
+                    <li class="list-group-item list-group-item-dark"><a href="">Economic Hub</a></li>
+                    <li class="list-group-item list-group-item-dark"><a href="">Home of Quaid</a></li>
+                    <li class="list-group-item list-group-item-dark"><a href="">Mini Pakistan</a></li>
+                    <li class="list-group-item list-group-item-dark"><a href="">Coastal Area</a></li>
+                    <li class="list-group-item list-group-item-dark"><a href="">Political Hub</a></li>
+                    <li class="list-group-item list-group-item-dark"><a href="">Capital of Sindh</a></li>
+                    <li class="list-group-item list-group-item-dark"><a href="">Most Populous City</a></li>
+                    <li class="list-group-item list-group-item-dark"><a href="">Most Populous City</a></li>
+                    <li class="list-group-item list-group-item-dark"><a href="">Jinnah International Airport</a></li>
+                    <li class="list-group-item list-group-item-dark"><a href="Introduction to Karachi">Introduction to Karachi</a></li>
+                    <li class="list-group-item list-group-item-dark"><a href="">Economic Potential</a></li>
+                    <li class="list-group-item list-group-item-dark"><a href="">Markets of Karachi</a></li>
+                    <li class="list-group-item list-group-item-dark"><a href="">FoodStreeats of Karachi</a></li>
+                    <li class="list-group-item list-group-item-dark"><a href="">People of Karachi</a></li>
+                    <li class="list-group-item list-group-item-dark"><a href="">City of Lights</a></li>
+                    <li class="list-group-item list-group-item-dark"><a href="">History</a></li>
+                    <li class="list-group-item list-group-item-dark"><a href="">Mai Kolachi</a></li>
+                    <li class="list-group-item list-group-item-dark"><a href="">Jamshed</a></li>
+                    <li class="list-group-item list-group-item-dark"><a href="">Port</a></li>
+                    <li class="list-group-item list-group-item-dark"><a href="">Municipal Corporation</a></li>
+                    <li class="list-group-item list-group-item-dark"><a href="">Economic Hub</a></li>
+                    <li class="list-group-item list-group-item-dark"><a href="">Home of Quaid</a></li>
+                    <li class="list-group-item list-group-item-dark"><a href="">Mini Pakistan</a></li>
+                    <li class="list-group-item list-group-item-dark"><a href="">Coastal Area</a></li>
+                    <li class="list-group-item list-group-item-dark"><a href="">Political Hub</a></li>
+                    <li class="list-group-item list-group-item-dark"><a href="">Capital of Sindh</a></li>
+                    <li class="list-group-item list-group-item-dark"><a href="">Most Populous City</a></li>
+                    <li class="list-group-item list-group-item-dark"><a href="">Most Populous City</a></li>
+                    <li class="list-group-item list-group-item-dark"><a href="">Jinnah International Airport</a></li>
+                    <li class="list-group-item list-group-item-dark"><a href="Introduction to Karachi">Introduction to Karachi</a></li>
+                    <li class="list-group-item list-group-item-dark"><a href="">Economic Potential</a></li>
+                    <li class="list-group-item list-group-item-dark"><a href="">Markets of Karachi</a></li>
+                    <li class="list-group-item list-group-item-dark"><a href="">FoodStreeats of Karachi</a></li>
+                    <li class="list-group-item list-group-item-dark"><a href="">People of Karachi</a></li>
+                    <li class="list-group-item list-group-item-dark"><a href="">City of Lights</a></li>
+                    <li class="list-group-item list-group-item-dark"><a href="">History</a></li>
+                    <li class="list-group-item list-group-item-dark"><a href="">Mai Kolachi</a></li>
+                    <li class="list-group-item list-group-item-dark"><a href="">Jamshed</a></li>
+                    <li class="list-group-item list-group-item-dark"><a href="">Port</a></li>
+                    <li class="list-group-item list-group-item-dark"><a href="">Municipal Corporation</a></li>
+                    <li class="list-group-item list-group-item-dark"><a href="">Economic Hub</a></li>
+                    <li class="list-group-item list-group-item-dark"><a href="">Home of Quaid</a></li>
+                    <li class="list-group-item list-group-item-dark"><a href="">Mini Pakistan</a></li>
+                    <li class="list-group-item list-group-item-dark"><a href="">Coastal Area</a></li>
+                    <li class="list-group-item list-group-item-dark"><a href="">Political Hub</a></li>
+                    <li class="list-group-item list-group-item-dark"><a href="">Capital of Sindh</a></li>
+                    <li class="list-group-item list-group-item-dark"><a href="">Most Populous City</a></li>
+                    <li class="list-group-item list-group-item-dark"><a href="">Most Populous City</a></li>
+                    <li class="list-group-item list-group-item-dark"><a href="">Jinnah International Airport</a></li>
                 </ul>
             </div><!-- side bar -->
             <div class="col-9 main-content">
-                
+                <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">First</th>
+                        <th scope="col">Last</th>
+                        <th scope="col">Handle</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td>Larry the Bird</td>
+                        <td>Bird</td>
+                        <td>@twitter</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">4</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">5</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">6</th>
+                        <td>Larry the Bird</td>
+                        <td>Bird</td>
+                        <td>@twitter</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">7</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">8</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">9</th>
+                        <td>Larry the Bird</td>
+                        <td>Bird</td>
+                        <td>@twitter</td>
+                      </tr>
+                    </tbody>
+                  </table> 
             </div>
         </div>
     </div>
