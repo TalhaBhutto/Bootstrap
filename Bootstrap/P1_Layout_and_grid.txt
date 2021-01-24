@@ -1,0 +1,17 @@
+Container:
+        -Fixed Width
+        -Not Responsive
+        -Static Pixels
+Container Fluid:
+        -Responsive
+        -Works on %
+Grid:
+    -Bootstrap 5 allows 12 grids(column) in a row
+    -Divide the row into 12 grids
+    - Bootstrap supports various screen resolutions
+        * xs: extra small (6 columns)
+        * sm: small
+        * md: medium
+        * lg: large
+        * xl: extra large
+        * xll: extra extra large
