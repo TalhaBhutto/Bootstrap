@@ -17,4 +17,5 @@ a{
 }
 .r1{
     border: black;
+    border-bottom: black;
 }
