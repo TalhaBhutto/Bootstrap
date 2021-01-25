@@ -7,3 +7,4 @@ BootStrap NavBar Classes:
     -navbar-expand-lg: for responsive
     -NavBar-toggler: for toggling
     -fixed-top/fixed-bottom/sticky-top:for static position
+    -collapse-navbar: responsive in small devices
