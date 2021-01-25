@@ -15,7 +15,7 @@ a{
 .col-2{
     margin: 1%;
 }
-.r1{
-    border: black;
+.col-10{
     border-bottom: black;
+    border: 2px;
 }
