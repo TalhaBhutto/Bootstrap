@@ -1,0 +1,9 @@
+BootStrap NavBar Classes:
+    -navbar: an outer binding
+    -navbar-brand:for branding
+    -navbar-item: For menu items
+    -navbar-link: for links
+    -NavBar-light: for theme
+    -navbar-expand-lg: for responsive
+    -NavBar-toggler: for toggling
+    -fixed-top/fixed-bottom/sticky-top:for static position
