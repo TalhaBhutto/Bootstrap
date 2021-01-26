@@ -5,5 +5,7 @@ body{
 .navbar-dark{
     background-color:blueviolet!important ;
 }
-.card{
+.lg2{
+    height: 400px;
+    overflow-y: scroll;
 }
