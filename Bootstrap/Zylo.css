@@ -5,3 +5,7 @@ body{
 .navbar-dark{
     background-color:blueviolet!important ;
 }
+.card{
+    margin-left: 50px;
+    margin-right: 50px;
+}
