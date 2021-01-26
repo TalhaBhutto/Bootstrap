@@ -48,7 +48,7 @@
         </div>
       </nav>
       <div class="container-fluid">
-          <div class="row">
+          <div class="row ">
               <div class="col-xs-12 col-sm6 col-md-4 col-lg-3">
                 <div class="card" style="width: 18rem;background-color: darkgreen;">
                     <div class="card-body" id="#C4">
@@ -90,9 +90,10 @@
                   </div>
               </div>
           </div>
-          <div class="row">
-            <div class="alert alert-warning m-4" role="alert">
-              A simple warning alert—check it out!
+          <div class="row m-2">
+            <div class="alert alert-warning alert-dismissible fade show" role="alert">
+              <strong>Important!</strong> You should check in on some of those fields below.
+              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
             </div>
           </div>
           <div class="row m-2">
@@ -100,7 +101,7 @@
                 <h1>My Application</h1>
             </div>
             <div class="col-6">
-                <button type="button" class="btn btn-primary" style="float: right;">New Application</button>
+                <button type="button" class="btn btn-primary" data-bs-toggle="Modal" data-bs-target="#modal1" style="float: right;">New Application</button>
             </div>
           </div>
           <div class="row m-2">
@@ -207,6 +208,23 @@
                   </div>
               </div>
           </div>
+      </div>
+      <div class="modal" tabindex="-1" id="#Modal1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Modal title</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>Modal body text goes here.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
       </div>
 
     
