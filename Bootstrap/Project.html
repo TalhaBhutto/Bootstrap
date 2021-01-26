@@ -99,6 +99,10 @@
               <strong>Important!</strong> You should check in on some of those fields below.
               <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
             </div>
+              <div class="alert alert-success alert-dismissible fade show collapse" id="collapseExample5" role="alert">
+                <strong>Response submitted successfully!</strong> 
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
           </div>
           <div class="row m-2">
             <div class="col-6">
@@ -219,7 +223,7 @@
                                   </div>
                                   <div class="col-12">
                                     <div class="form-check">
-                                      <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" aria-describedby="invalidCheck3Feedback" required>
+                                      <input class="form-check-input is-invalid" data-bs-toggle="collapse" href="#collapseExample4" type="checkbox" value="" id="invalidCheck3" aria-describedby="invalidCheck3Feedback" required>
                                       <label class="form-check-label" for="invalidCheck3">
                                         Agree to terms and conditions
                                       </label>
@@ -229,7 +233,7 @@
                                     </div>
                                   </div>
                                   <div class="col-12">
-                                    <button class="btn btn-primary" type="submit" data-bs-dismiss="modal">Submit form</button>
+                                    <button class="collapse btn btn-primary" id="collapseExample4" data-bs-toggle="collapse" href="#collapseExample5" type="submit" data-bs-dismiss="modal">Submit form</button>
                                   </div>
                                 </form>
                                 </div>
