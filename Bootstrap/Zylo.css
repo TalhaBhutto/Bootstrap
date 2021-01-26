@@ -6,6 +6,9 @@ body{
     background-color:blueviolet!important ;
 }
 .lg2{
-    height: 400px;
+    height: 250px;
     overflow-y: scroll;
+}
+img{
+    height: 100px!important;
 }
